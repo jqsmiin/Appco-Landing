@@ -1,0 +1,161 @@
+@media(min-width:768px) {
+    .slick-current {
+        opacity: 0.6;
+    }
+
+    #contact {
+        padding-top: 2rem;
+
+        .item-2 {
+            margin-top: 0rem;
+            justify-content: flex-end;
+        }
+    }
+
+    #hero {
+        .item-2 {
+            display: block;
+        }
+    }
+
+    #help {
+        .item {
+            padding: 0 1rem;
+        }
+    }
+}
+
+@media(min-width:992px) {
+    #nav {
+        .navbar-nav {
+            gap: 2rem;
+        }
+    }
+
+    #contact {
+        overflow: hidden;
+        padding-bottom: 1rem;
+        padding-top: 6rem;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 500px;
+            height: 401px;
+            right: 0px;
+            top: -68px;
+            background: url('../pages/images/say-shape-right.png');
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 342px;
+            height: 343px;
+            z-index: -1;
+            left: -130px;
+            bottom: 2px;
+            background: url('../pages/images/say-shape-left.png');
+            animation: rotate 50s infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(112deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .item-2 {
+            margin-top: 0rem;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+
+    #features {
+        .item-1 {
+            display: flex;
+        }
+
+        .item-2 {
+            .items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+@media(min-width:1200px) {
+    #nav {
+        a {
+            font-size: 20px;
+        }
+    }
+
+    #pageTitle {
+        h1 {
+            padding: 0 19rem;
+            font-size: 3rem;
+        }
+    }
+
+    #hero {
+        .item-1 {
+            h3 {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .btn-0 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    #help {
+        .item-container {
+            h3 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+
+    #screns {
+        .item-1 {
+            h2 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 19px;
+            }
+        }
+    }
+
+    #devices {
+        .item-1 {
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../images/logo.webp';
+import Image from 'next/image'
+
+function NavScroll() {
+    return (
+        <Navbar expand="lg" id='nav'>
+            <Container>
+                <Row className='w-100'>
+                    <div className="items">
+                        <Col md={6} sm={4} className='item-1'>
+                            <Navbar.Brand href="#">
+                                <Image src={logo} alt="Logo" />
+                            </Navbar.Brand>
+                        </Col>
+                        <Col md={6} sm={4} className='item-2'>
+                            <Navbar.Toggle aria-controls="navbarScroll" />
+                            <Navbar.Collapse id="navbarScroll">
+                                <Nav
+                                    className="me-auto my-2 my-lg-0 list"
+                                    style={{ maxHeight: '100px' }}
+                                    navbarScroll
+                                >
+                                    <Nav.Link href="#action1">Home</Nav.Link>
+                                    <Nav.Link href="#action2">Feature</Nav.Link>
+                                    <Nav.Link href="#action2">Services</Nav.Link>
+                                    <Nav.Link href="#action2">Pricing</Nav.Link>
+                                    <Nav.Link href="#action2">Pages</Nav.Link>
+                                    <Nav.Link href="#action2">Contact</Nav.Link>
+                                </Nav>
+                            </Navbar.Collapse>
+                        </Col>
+                    </div>
+                </Row>
+
+
+            </Container>
+        </Navbar>
+    );
+}
+
+export default NavScroll;
+
+ .items {
+        display: flex;
+        padding: 1rem 2.5rem;
+
+        .item-1,
+        .item-2 {
+            width: 50%;
+        }
+
+        .item-2 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .list {
+                gap: 2rem;
+            }
+
+            // #a60dcf
+           
+        }
+    }
