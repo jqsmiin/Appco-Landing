@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Appco Landing
 
-First, run the development server:
+Responsive landing page, created with next.js. My main focus was to make a really fast and responsive website. In the screenshots below, you can see the speed tests performed by lighthouse.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies
+ 
+Project is created with : 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [Next js](https://nextjs.org/)
+- [React bootstrap](react-bootstrap)
+- [Font Source](https://fontsource.org)
+- [Sass](https://sass-lang.com)
+- [bootstrap-icons](icons.getbootstrap.com/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Color Reference
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color |  #2b044d |
+| Paragraph Color | #707b8e |
+| Gray Color | #57667e |
+| Purple Color | #6a56a6 |
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot_1](https://user-images.githubusercontent.com/86678700/198890368-79ffaf38-a3dc-446c-9853-59c496dec65b.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Screenshot_2](https://user-images.githubusercontent.com/86678700/198890375-2ec985b6-fefd-4d29-9201-275e6a72ceba.png)
 
-## Deploy on Vercel
+![Screenshot_4](https://user-images.githubusercontent.com/86678700/198890382-0dfd7604-9a50-4456-80c1-d66870e86b39.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screenshot_5](https://user-images.githubusercontent.com/86678700/198890388-83512ba6-17eb-4513-b999-aa7230cf4d99.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Screenshot_6](https://user-images.githubusercontent.com/86678700/198890397-2df2a7fd-cf9f-49fd-9850-294ebdead8b7.png)
+
+![Screenshot_7](https://user-images.githubusercontent.com/86678700/198890400-a8c2ad42-a8c5-43bb-9cab-bb2ec8b0607d.png)
+
+![Screenshot_8](https://user-images.githubusercontent.com/86678700/198890413-077f3f62-8eee-43d4-ba2d-da5378a36fc0.png)
+
+
+## Appendix
+
+If you want to check speed of this landing page by yourself, you can use these tools:
+https://gtmetrix.com
+https://pagespeed.web.dev
+
+
